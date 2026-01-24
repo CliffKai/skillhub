@@ -1,0 +1,15 @@
+# 项目基本信息配置
+# 由 autoflow-setup 自动生成
+
+project:
+  name: ""                    # 项目名称
+  description: ""             # 项目描述
+  type: ""                    # 项目类型: training / inference / data_processing / hybrid
+  framework: ""               # 主要框架: pytorch / tensorflow / jax / other
+
+structure:
+  root: ""                    # 项目根目录
+  config_files: []            # 配置文件路径列表
+  entry_points: []            # 入口文件列表
+
+notes: ""                     # 特殊说明

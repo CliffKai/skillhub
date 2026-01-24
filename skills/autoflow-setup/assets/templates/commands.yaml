@@ -1,0 +1,23 @@
+# 运行命令配置
+# 由 autoflow-setup 自动生成
+
+preprocess:
+  description: ""             # 预处理步骤说明
+  commands: []                # 预处理命令列表
+
+train:
+  description: ""             # 训练说明
+  command: ""                 # 训练命令
+  args: {}                    # 可配置参数
+
+evaluate:
+  description: ""             # 评估说明
+  command: ""                 # 评估命令
+  args: {}                    # 可配置参数
+
+inference:
+  description: ""             # 推理说明
+  command: ""                 # 推理命令
+  args: {}                    # 可配置参数
+
+custom_commands: {}           # 其他自定义命令

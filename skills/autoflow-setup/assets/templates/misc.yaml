@@ -1,0 +1,23 @@
+# 其他配置
+# 由 autoflow-setup 自动生成
+
+reproducibility:
+  random_seed: null           # 随机种子
+  deterministic: false        # 是否启用确定性模式
+
+external_services: []         # 外部服务依赖
+# 示例:
+# - name: "wandb"
+#   type: "logging"
+#   config:
+#     project: "my-project"
+
+special_notes: []             # 特殊注意事项
+
+troubleshooting: []           # 常见问题及解决方案
+# 示例:
+# - issue: "CUDA out of memory"
+#   solution: "减小 batch_size 或使用梯度累积"
+
+last_updated: ""              # 最后更新时间
+updated_by: ""                # 更新者

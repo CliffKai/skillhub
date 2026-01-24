@@ -1,0 +1,24 @@
+# 硬件配置
+# 由 autoflow-setup 自动生成
+
+gpu:
+  required: false             # 是否需要 GPU
+  min_count: 0                # 最少 GPU 数量
+  min_memory_gb: 0            # 最小显存要求 (GB)
+  recommended_type: ""        # 推荐 GPU 型号
+
+cpu:
+  min_cores: 1                # 最少 CPU 核心数
+
+memory:
+  min_ram_gb: 8               # 最小内存要求 (GB)
+
+storage:
+  min_disk_gb: 10             # 最小磁盘空间 (GB)
+
+distributed:
+  supported: false            # 是否支持分布式训练
+  framework: ""               # 分布式框架: ddp / horovod / deepspeed / other
+  config: {}                  # 分布式配置
+
+notes: ""                     # 硬件相关说明

@@ -30,6 +30,21 @@ skillhub/
 
 在对话中描述创建 skill 的需求（如 "帮我创建一个 skill"），Claude 会自动加载 skill-creator 引导创建流程。生成的目录放入 `skills/` 文件夹。
 
+## Python 环境
+
+本项目使用 uv 管理 Python 虚拟环境：
+
+```bash
+# 激活环境
+source .venv/bin/activate
+
+# 安装依赖
+uv pip install <package>
+```
+
+已安装的依赖：
+- pyyaml：用于 skill 打包和验证
+
 ## Skill 文件格式
 
 每个 SKILL.md 需包含：

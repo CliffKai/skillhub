@@ -7,6 +7,8 @@
 | Skill | 描述 |
 |-------|------|
 | [innovation-validator](skills/innovation-validator/) | 学术创新点探索与验证工具，使用 Claude + Codex + Gemini 三工具协同检索文献、分析创新点、评估 AI 顶会发表潜力 |
+| [autoflow-setup](skills/autoflow-setup/) | ML/DL 项目自动化配置工具，分析项目结构并与用户交互确认环境、路径、命令等配置，生成 `.autoflow/` 配置目录 |
+| [autoflow-run](skills/autoflow-run/) | 基于 autoflow-setup 生成的配置自动执行 ML/DL 流程，支持训练、推理、评估等任务，具备错误自动修复和参数调优功能 |
 
 ## 仓库结构
 
