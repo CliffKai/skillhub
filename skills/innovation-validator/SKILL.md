@@ -46,7 +46,7 @@ web_search = true
 
 调用示例：
 ```bash
-codex "背景：[之前讨论摘要]。请搜索 [具体问题]"
+codex exec "背景：[之前讨论摘要]。请搜索 [具体问题]"
 ```
 
 ### Gemini 调用
